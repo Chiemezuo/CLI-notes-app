@@ -1,4 +1,6 @@
-function addNotes(title, message) {}
+function addNotes(title, message) {
+  console.log("hello there, I am being added.");
+}
 
 function getNotes() {}
 
