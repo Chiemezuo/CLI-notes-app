@@ -23,7 +23,7 @@ yargs.command(
     },
   },
   function (args) {
-    addNotes();
+    addNotes(args.title, args.message);
   }
 );
 
